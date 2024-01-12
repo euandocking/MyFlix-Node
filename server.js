@@ -17,6 +17,7 @@ mongoose.connect(mongoURI, {
 const videoSchema = new mongoose.Schema({
     name: String,
     description: String,
+    category: String,
     url: String,
 });
 
